@@ -1,0 +1,35 @@
+
+<header class="md:absolute top-0 left-0 right-0 md:flex justify-between px-5p py-8">
+
+    <h2 class="text-2xl ">
+        <a href="/index"> The Bali Villa </a>
+    </h2>
+
+    <nav class="tracking-wide">
+        <a href="/rooms"> Rooms </a>
+        <a href="/book" class="ml-4 font-bold"> Book Now </a>
+    </nav>
+
+</header>
+
+
+<section>
+
+    <div class="{{page.background-position}} bg-cover max-w-screen-3xl mx-auto px-5p"
+    style="background-image: url('{{page.banner-image}}')">
+
+        <div class="flex items-center min-h-90 justify-end">
+
+            <div>
+                {% if page.pre-heading %}
+                <h2 class="text-base uppercase tracking-wide font-sans"> {{page.pre-heading}} </h2>
+                {% endif %}
+
+                <h1 class="text-6xl"> {{page.heading}} </h1>
+    
+            </div>
+        </div>
+
+    </div>
+
+</section>
