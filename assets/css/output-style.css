@@ -433,6 +433,9 @@ p {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.absolute {
+  position: absolute;
+}
 .left-0 {
   left: 0px;
 }
@@ -459,17 +462,33 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
 .-ml-\[20\%\] {
   margin-left: -20%;
 }
 .-mr-\[20\%\] {
   margin-right: -20%;
 }
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
 .mb-14 {
   margin-bottom: 3.5rem;
 }
 .ml-4 {
   margin-left: 1rem;
+}
+.ml-8 {
+  margin-left: 2rem;
+}
+.mr-8 {
+  margin-right: 2rem;
+}
+.mt-10 {
+  margin-top: 2.5rem;
 }
 .mt-14 {
   margin-top: 3.5rem;
@@ -480,14 +499,11 @@ p {
 .grid {
   display: grid;
 }
-.aspect-landscape {
-  aspect-ratio: 3 / 2;
-}
-.aspect-square {
-  aspect-ratio: 1 / 1;
-}
 .min-h-90 {
   min-height: 90vh;
+}
+.w-\[30\%\] {
+  width: 30%;
 }
 .w-\[60\%\] {
   width: 60%;
@@ -503,6 +519,9 @@ p {
 }
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.content-center {
+  align-content: center;
 }
 .items-center {
   align-items: center;
@@ -577,6 +596,10 @@ p {
   font-size: 1.875rem;
   line-height: 1;
 }
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
@@ -598,6 +621,9 @@ p {
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 
