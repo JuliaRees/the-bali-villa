@@ -805,6 +805,9 @@ input::-moz-placeholder, textarea::-moz-placeholder {
   .sm\:text-left {
     text-align: left;
   }
+  .sm\:text-right {
+    text-align: right;
+  }
   .sm\:text-2xl {
     font-size: 1.5rem;
     line-height: 1.2;
