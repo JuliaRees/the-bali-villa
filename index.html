@@ -19,18 +19,23 @@ seo:
 
 <section class="p-5p">
 
-	<div class="grid md:grid-cols-2 max-w-screen-xl mx-auto">
+	<div class="sm:grid sm:grid-cols-2 max-w-screen-xl mx-auto">
 
-		<div class="bg-image bg-cover bg-center shadow-2xl" style="background-image: url('{{page.text-image}}')"></div>
+		<div class="sm:hidden">
+			<h2 class="editable text-center text-3xl my-8"> Welcome <br> to the epitome of luxury in Bali. </h2>
+		</div>
 
-		<div class="py-15p px-8">
+		<div class="bg-image bg-cover bg-center shadow-2xl min-h-50" style="background-image: url('{{page.text-image}}')"></div>
+
+		<div class="pt-15p pb-5p sm:py-15p sm:px-8">
 			
-			<div>
+			<div class="hidden sm:block">
 				<h2 class="editable p-8 text-center text-3xl md:text-5xl -ml-[20%] max-w-sm bg-[#d8d9db]"> Welcome <br> to the epitome of luxury in Bali. </h2>
 			</div>
 
 			<div class="editable">
-				<p class="text-center md:text-left"> Nestled on a sprawling property, this remarkable villa is truly one of a kind. With its exquisite design and unparalleled privacy, it offers an unparalleled experience that is unmatched in every aspect. </p>
+				<p class="text-center md:text-left"> Nestled on a sprawling property, this remarkable villa is truly one of a kind. </p>
+				<p class="text-center md:text-left"> With its exquisite design and unparalleled privacy, it offers an unparalleled experience that is unmatched in every aspect. </p>
 			</div>
 
 		</div>
@@ -42,23 +47,26 @@ seo:
 
 <!--------Mirrored Text Section------------->
 
-<section class="p-5p">
+<section class="px-5 sm:py-5p">
 
-	<div class="grid md:grid-cols-2 max-w-screen-xl mx-auto">
+	<div class="sm:grid sm:grid-cols-2 max-w-screen-xl mx-auto">
 
-		<div class="py-15p px-8">
+		<div class="bg-image bg-cover bg-center shadow-2xl min-h-50 sm:hidden" style="background-image: url('{{page.mirrored-text-image}}')"></div>
+
+		<div class="py-15p sm:px-8">
 			
 			<div>
-				<h2 class="editable p-8 text-center text-3xl md:text-5xl -mr-[20%] max-w-m bg-[#d8d9db]"> As you step into the villa, you are immediately greeted by a sense of grandeur. </h2>
+				<h2 class="editable sm:p-8 text-center text-3xl md:text-5xl sm:-mr-[20%] max-w-m sm:bg-[#d8d9db] hidden sm:block"> As you step into the villa, you are immediately greeted by a sense of grandeur. </h2>
 			</div>
 
 			<div class="editable">
-				<p class="text-center md:text-left"> The spacious living area, adorned with tasteful and opulent furnishings, creates an ambiance of elegance and comfort. <br> Large floor-to-ceiling windows invite natural light to illuminate the space, providing breathtaking views of the lush surroundings. </p>
+				<p class="text-center md:text-left"> The spacious living area, adorned with tasteful and opulent furnishings, creates an ambiance of elegance and comfort. </p>
+				<p class="text-center md:text-left"> Large floor-to-ceiling windows invite natural light to illuminate the space, providing breathtaking views of the lush surroundings. </p>
 			</div>
 
 		</div>
 
-		<div class="bg-image bg-cover bg-center shadow-2xl" style="background-image: url('{{page.mirrored-text-image}}')"></div>
+		<div class="bg-image bg-cover bg-center shadow-2xl hidden sm:block" style="background-image: url('{{page.mirrored-text-image}}')"></div>
 
 	</div>
 
@@ -67,12 +75,12 @@ seo:
 
 <!--------Quote Section------------->
 
-<section class="p-5p mx-10">
+<section class="py-5p sm:p-5p mx-10">
 	<div class="flex justify-center">
 	<hr class="border-2 border-b-0 mb-14 w-[60%]">
 	</div>
 
-	<p class="font-serif uppercase text-center text-2xl"> Immerse yourself in luxury, privacy, and unparalleled beauty, and let your worries melt away as you experience the pinnacle of opulence in this tropical paradise. </p>
+	<p class="font-serif uppercase text-center text-xl sm:text-2xl"> Immerse yourself in luxury, privacy, and unparalleled beauty, and let your worries melt away as you experience the pinnacle of opulence in this tropical paradise. </p>
 
 	<div class="flex justify-center">
 		<hr class="border-2 border-b-0 mt-14 w-[60%]">
@@ -83,7 +91,7 @@ seo:
 
 <!--------Image Gallery------------->
 
-<section class="p-5p">
+<section class="py-15p px-5p sm:p-5p">
 
 	<div class="grid grid-cols-3 gap-3">
 
