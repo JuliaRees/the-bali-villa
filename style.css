@@ -54,4 +54,12 @@
 
 }
 
-input::placeholder, textarea::placeholder 
+input::-moz-placeholder, textarea::-moz-placeholder {
+    opacity: 1; 
+    color: black; 
+  }
+  input::placeholder,
+  textarea::placeholder {
+    opacity: 1; 
+    color: black;
+  }

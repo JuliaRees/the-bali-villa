@@ -525,9 +525,6 @@ p {
 .ml-4 {
   margin-left: 1rem;
 }
-.ml-8 {
-  margin-left: 2rem;
-}
 .ml-auto {
   margin-left: auto;
 }
@@ -536,6 +533,9 @@ p {
 }
 .mt-14 {
   margin-top: 3.5rem;
+}
+.mt-4 {
+  margin-top: 1rem;
 }
 .block {
   display: block;
@@ -655,6 +655,12 @@ p {
 .pb-5p {
   padding-bottom: 5%;
 }
+.pb-\[2\%\] {
+  padding-bottom: 2%;
+}
+.pl-\[2\%\] {
+  padding-left: 2%;
+}
 .pt-15p {
   padding-top: 15%;
 }
@@ -722,15 +728,22 @@ p {
 
 /* ----------- ADDITIONAL COMPONENTS  --------- */
 
-.placeholder\:tracking-widest::-moz-placeholder {
+input::-moz-placeholder, textarea::-moz-placeholder {
+    opacity: 1; 
+    color: black; 
+  }
+  input::placeholder,
+  textarea::placeholder {
+    opacity: 1; 
+    color: black;
+  }
+  .placeholder\:tracking-widest::-moz-placeholder {
   letter-spacing: 0.1em;
 }
-
-.placeholder\:tracking-widest::placeholder {
+  .placeholder\:tracking-widest::placeholder {
   letter-spacing: 0.1em;
 }
-
-@media (min-width: 640px) {
+  @media (min-width: 640px) {
   .sm\:absolute {
     position: absolute;
   }
@@ -797,8 +810,7 @@ p {
     line-height: 1.2;
   }
 }
-
-@media (min-width: 768px) {
+  @media (min-width: 768px) {
   .md\:grid {
     display: grid;
   }
@@ -813,4 +825,3 @@ p {
     line-height: 1;
   }
 }
-
