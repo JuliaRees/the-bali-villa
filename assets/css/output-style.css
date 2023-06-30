@@ -504,14 +504,14 @@ p {
 .-ml-\[20\%\] {
   margin-left: -20%;
 }
-.mb-1 {
-  margin-bottom: 0.25rem;
-}
 .mb-10 {
   margin-bottom: 2.5rem;
 }
 .mb-14 {
   margin-bottom: 3.5rem;
+}
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 .mb-4 {
   margin-bottom: 1rem;
@@ -521,6 +521,9 @@ p {
 }
 .mb-9 {
   margin-bottom: 2.25rem;
+}
+.mb-\[0\.6rem\] {
+  margin-bottom: 0.6rem;
 }
 .ml-4 {
   margin-left: 1rem;
@@ -658,11 +661,17 @@ p {
 .pb-\[2\%\] {
   padding-bottom: 2%;
 }
+.pl-\[1\%\] {
+  padding-left: 1%;
+}
 .pl-\[2\%\] {
   padding-left: 2%;
 }
 .pt-15p {
   padding-top: 15%;
+}
+.pl-\[5\%\] {
+  padding-left: 5%;
 }
 .text-center {
   text-align: center;
@@ -737,13 +746,25 @@ input::-moz-placeholder, textarea::-moz-placeholder {
     opacity: 1; 
     color: black;
   }
-  .placeholder\:tracking-widest::-moz-placeholder {
+
+  /*  Font Awesome Icons --------------------  */
+
+.fa-solid {
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.placeholder\:tracking-widest::-moz-placeholder {
   letter-spacing: 0.1em;
 }
-  .placeholder\:tracking-widest::placeholder {
+
+.placeholder\:tracking-widest::placeholder {
   letter-spacing: 0.1em;
 }
-  @media (min-width: 640px) {
+
+@media (min-width: 640px) {
   .sm\:absolute {
     position: absolute;
   }
@@ -813,7 +834,8 @@ input::-moz-placeholder, textarea::-moz-placeholder {
     line-height: 1.2;
   }
 }
-  @media (min-width: 768px) {
+
+@media (min-width: 768px) {
   .md\:grid {
     display: grid;
   }

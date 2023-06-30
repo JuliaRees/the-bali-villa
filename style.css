@@ -63,3 +63,12 @@ input::-moz-placeholder, textarea::-moz-placeholder {
     opacity: 1; 
     color: black;
   }
+
+  /*  Font Awesome Icons --------------------  */
+
+.fa-solid {
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
