@@ -549,6 +549,9 @@ p {
 .flex {
   display: flex;
 }
+.inline-flex {
+  display: inline-flex;
+}
 .grid {
   display: grid;
 }
@@ -600,8 +603,8 @@ p {
 .gap-3 {
   gap: 0.75rem;
 }
-.gap-7 {
-  gap: 1.75rem;
+.gap-9 {
+  gap: 2.25rem;
 }
 .border {
   border-width: 1px;
@@ -684,6 +687,9 @@ p {
 .pt-15p {
   padding-top: 15%;
 }
+.pl-\[2\%\] {
+  padding-left: 2%;
+}
 .text-center {
   text-align: center;
 }
@@ -760,11 +766,13 @@ input::-moz-placeholder, textarea::-moz-placeholder {
 
   /*  Font Awesome Icons --------------------  */
 
-.fa-solid {
-    display: block;
+.fa-solid,
+.fa-brands {
+    display: inline-block;
     text-align: center;
-    margin-bottom: 2rem;
-    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    padding-right: 1rem;
 }
 
 .placeholder\:tracking-widest::-moz-placeholder {
@@ -802,6 +810,9 @@ input::-moz-placeholder, textarea::-moz-placeholder {
   }
   .sm\:min-h-90 {
     min-height: 90vh;
+  }
+  .sm\:min-h-50 {
+    min-height: 50vh;
   }
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
