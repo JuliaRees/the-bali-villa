@@ -8,9 +8,11 @@
 
 @layer base {
 
+    /*
     html {
         @apply border-8 sm:border-blue md:border-purple lg:border-pink;
     }
+    */
 
     h1, h2, h3, h4  {
         @apply font-serif mb-[0.5em];
