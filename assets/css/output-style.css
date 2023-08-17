@@ -472,20 +472,19 @@ p {
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
+.col-span-full {
+  grid-column: 1 / -1;
+}
 .row-span-2 {
   grid-row: span 2 / span 2;
 }
-.mx-10 {
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
 }
 .my-8 {
   margin-top: 2rem;
@@ -493,6 +492,9 @@ p {
 }
 .-ml-\[20\%\] {
   margin-left: -20%;
+}
+.mb-0 {
+  margin-bottom: 0px;
 }
 .mb-10 {
   margin-bottom: 2.5rem;
@@ -527,6 +529,9 @@ p {
 .mt-4 {
   margin-top: 1rem;
 }
+.mt-8 {
+  margin-top: 2rem;
+}
 .block {
   display: block;
 }
@@ -551,8 +556,8 @@ p {
 .min-h-50 {
   min-height: 50vh;
 }
-.min-h-60 {
-  min-height: 60vh;
+.min-h-80 {
+  min-height: 80vh;
 }
 .w-\[30\%\] {
   width: 30%;
@@ -609,11 +614,14 @@ p {
 .bg-cover {
   background-size: cover;
 }
-.bg-\[position\:50\%_82\%\] {
-  background-position: 50% 82%;
+.bg-\[position\:23\%_50\%\] {
+  background-position: 23% 50%;
 }
-.bg-\[position\:64\%_50\%\] {
-  background-position: 64% 50%;
+.bg-\[position\:36\%_50\%\] {
+  background-position: 36% 50%;
+}
+.bg-\[position\:73\%_50\%\] {
+  background-position: 73% 50%;
 }
 .bg-center {
   background-position: center;
@@ -667,9 +675,6 @@ p {
 }
 .pl-\[2\%\] {
   padding-left: 2%;
-}
-.pl-\[5\%\] {
-  padding-left: 5%;
 }
 .pt-15p {
   padding-top: 15%;
@@ -759,6 +764,15 @@ input::-moz-placeholder, textarea::-moz-placeholder {
     padding-right: 1rem;
 }
 
+.center {
+    text-align: center !important;
+}
+
+.subtle {
+    opacity: .5;
+    font-size: 0.8rem;
+}
+
 .placeholder\:tracking-widest::-moz-placeholder {
   letter-spacing: 0.1em;
 }
@@ -770,6 +784,10 @@ input::-moz-placeholder, textarea::-moz-placeholder {
 @media (min-width: 640px) {
   .sm\:absolute {
     position: absolute;
+  }
+  .sm\:mx-10 {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
   }
   .sm\:-mr-\[20\%\] {
     margin-right: -20%;
@@ -811,11 +829,21 @@ input::-moz-placeholder, textarea::-moz-placeholder {
     --tw-bg-opacity: 1;
     background-color: rgb(216 217 219 / var(--tw-bg-opacity));
   }
+  .sm\:bg-\[position\:18\%_50\%\] {
+    background-position: 18% 50%;
+  }
+  .sm\:bg-\[position\:50\%_50\%\] {
+    background-position: 50% 50%;
+  }
   .sm\:p-5p {
     padding: 5%;
   }
   .sm\:p-8 {
     padding: 2rem;
+  }
+  .sm\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .sm\:px-8 {
     padding-left: 2rem;
@@ -828,6 +856,9 @@ input::-moz-placeholder, textarea::-moz-placeholder {
   .sm\:py-5p {
     padding-top: 5%;
     padding-bottom: 5%;
+  }
+  .sm\:pl-\[5\%\] {
+    padding-left: 5%;
   }
   .sm\:text-left {
     text-align: left;
@@ -842,6 +873,9 @@ input::-moz-placeholder, textarea::-moz-placeholder {
 }
 
 @media (min-width: 768px) {
+  .md\:ml-\[1rem\] {
+    margin-left: 1rem;
+  }
   .md\:grid {
     display: grid;
   }
