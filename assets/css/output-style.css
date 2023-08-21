@@ -472,9 +472,6 @@ p {
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
-.col-span-full {
-  grid-column: 1 / -1;
-}
 .row-span-2 {
   grid-row: span 2 / span 2;
 }
@@ -625,6 +622,9 @@ p {
 }
 .bg-center {
   background-position: center;
+}
+.bg-\[position\:25\%_50\%\] {
+  background-position: 25% 50%;
 }
 .object-cover {
   -o-object-fit: cover;
@@ -835,6 +835,9 @@ input::-moz-placeholder, textarea::-moz-placeholder {
   .sm\:bg-\[position\:50\%_50\%\] {
     background-position: 50% 50%;
   }
+  .sm\:bg-\[position\:25\%_50\%\] {
+    background-position: 25% 50%;
+  }
   .sm\:p-5p {
     padding: 5%;
   }
@@ -881,6 +884,9 @@ input::-moz-placeholder, textarea::-moz-placeholder {
   }
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .md\:bg-\[position\:73\%_50\%\] {
+    background-position: 73% 50%;
   }
   .md\:text-left {
     text-align: left;
