@@ -39,6 +39,7 @@
         @apply mb-[0.5em] leading-normal;
     }
 
+
   }
 
 
@@ -55,6 +56,10 @@
     }
 
 }
+
+html {
+    scroll-behavior: smooth;
+  }
 
 input::-moz-placeholder, textarea::-moz-placeholder {
     opacity: 1; 
