@@ -438,16 +438,6 @@ p {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
-.button {
-  display: inline-block;
-  border-width: 1px;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  text-transform: uppercase;
-  letter-spacing: 0.025em;
-}
 .absolute {
   position: absolute;
 }
@@ -740,6 +730,8 @@ p {
 
 /* ----------- ADDITIONAL COMPONENTS  --------- */
 
+
+
 html {
     scroll-behavior: smooth;
   }
@@ -823,6 +815,9 @@ input::-moz-placeholder, textarea::-moz-placeholder {
   .sm\:content-center {
     align-content: center;
   }
+  .sm\:justify-end {
+    justify-content: flex-end;
+  }
   .sm\:gap-3 {
     gap: 0.75rem;
   }
@@ -894,3 +889,4 @@ input::-moz-placeholder, textarea::-moz-placeholder {
     line-height: 1;
   }
 }
+
