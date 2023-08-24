@@ -81,3 +81,18 @@ input::-moz-placeholder, textarea::-moz-placeholder {
     font-size: 0.8rem;
 }
 
+.button {
+    background-color: #6c757d;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #5a6268;
+}

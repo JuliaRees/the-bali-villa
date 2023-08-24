@@ -555,6 +555,9 @@ p {
 .w-full {
   width: 100%;
 }
+.min-w-\[25\%\] {
+  min-width: 25%;
+}
 .max-w-screen-xl {
   max-width: 1280px;
 }
@@ -566,9 +569,6 @@ p {
 }
 .items-center {
   align-items: center;
-}
-.justify-end {
-  justify-content: flex-end;
 }
 .justify-center {
   justify-content: center;
@@ -766,6 +766,22 @@ input::-moz-placeholder, textarea::-moz-placeholder {
     font-size: 0.8rem;
 }
 
+.button {
+    background-color: #6c757d;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #5a6268;
+}
+
 .placeholder\:tracking-widest::-moz-placeholder {
   letter-spacing: 0.1em;
 }
@@ -889,4 +905,3 @@ input::-moz-placeholder, textarea::-moz-placeholder {
     line-height: 1;
   }
 }
-
