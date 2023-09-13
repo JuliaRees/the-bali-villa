@@ -730,11 +730,27 @@ p {
 
 /* ----------- ADDITIONAL COMPONENTS  --------- */
 
-
-
+/* For regular laptops and smaller screens */
 html {
     scroll-behavior: smooth;
-  }
+    max-width: 100%; /* Allow it to expand to the full width of the screen */
+}
+
+/* For larger screens like flatscreen TVs */
+@media screen and (min-width: 1600px) {
+    html {
+        max-width: 1400px; /* Set a specific max-width for larger screens */
+        margin: 0 auto; /* Center the content horizontally */
+    }
+
+    /* Apply styles to the header for larger screens */
+    header {
+        max-width: 1400px; /* Set the same max-width as HTML */
+        margin: 0 auto; /* Center the header content horizontally */
+    }
+}
+
+
 
 input::-moz-placeholder, textarea::-moz-placeholder {
     opacity: 1; 
