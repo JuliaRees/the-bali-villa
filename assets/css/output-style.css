@@ -820,7 +820,7 @@ input::-moz-placeholder, textarea::-moz-placeholder {
     border-top-right-radius: 30px;
     margin-bottom: -6.9px;
     position: relative;
-    left: -241.8px;
+    left: -239.6px;
     transition: left 1s;
   }
 
@@ -914,8 +914,8 @@ input::-moz-placeholder, textarea::-moz-placeholder {
   .sm\:bg-\[position\:18\%_50\%\] {
     background-position: 18% 50%;
   }
-  .sm\:bg-\[position\:50\%_50\%\] {
-    background-position: 50% 50%;
+  .sm\:bg-\[position\:65\%_50\%\] {
+    background-position: 65% 50%;
   }
   .sm\:p-5p {
     padding: 5%;
@@ -968,6 +968,9 @@ input::-moz-placeholder, textarea::-moz-placeholder {
   }
   .md\:bg-\[position\:73\%_50\%\] {
     background-position: 73% 50%;
+  }
+  .md\:bg-\[position\:0\%_50\%\] {
+    background-position: 0% 50%;
   }
   .md\:text-left {
     text-align: left;
