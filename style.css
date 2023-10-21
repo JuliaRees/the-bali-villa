@@ -142,3 +142,12 @@ input::-moz-placeholder, textarea::-moz-placeholder {
     left: -73.4px;
     transition: left 1s;
   }
+
+
+  @media screen and (min-width: 1600px) {
+    .social {
+      display: none; /* Hide the social hub on screens wider than 1600px */
+    }
+  }
+
+  

@@ -827,12 +827,25 @@ input::-moz-placeholder, textarea::-moz-placeholder {
     left: -73.4px;
     transition: left 1s;
   }
+
+
+  @media screen and (min-width: 1600px) {
+    .social {
+      display: none; /* Hide the social hub on screens wider than 1600px */
+    }
+  }
+
+
   .placeholder\:tracking-widest::-moz-placeholder {
   letter-spacing: 0.1em;
 }
+
+
   .placeholder\:tracking-widest::placeholder {
   letter-spacing: 0.1em;
 }
+
+
   @media (min-width: 640px) {
   .sm\:absolute {
     position: absolute;
@@ -926,6 +939,8 @@ input::-moz-placeholder, textarea::-moz-placeholder {
     line-height: 1.2;
   }
 }
+
+
   @media (min-width: 768px) {
   .md\:ml-\[1rem\] {
     margin-left: 1rem;
@@ -947,3 +962,5 @@ input::-moz-placeholder, textarea::-moz-placeholder {
     line-height: 1;
   }
 }
+
+  
