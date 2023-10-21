@@ -561,9 +561,6 @@ p {
 .max-w-screen-xl {
   max-width: 1280px;
 }
-.max-w-sm {
-  max-width: 24rem;
-}
 .content-center {
   align-content: center;
 }
@@ -965,9 +962,6 @@ input::-moz-placeholder, textarea::-moz-placeholder {
   }
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-  .md\:bg-\[position\:73\%_50\%\] {
-    background-position: 73% 50%;
   }
   .md\:bg-\[position\:0\%_50\%\] {
     background-position: 0% 50%;
