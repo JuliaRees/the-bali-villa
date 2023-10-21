@@ -806,7 +806,7 @@ input::-moz-placeholder, textarea::-moz-placeholder {
     z-index: 50;
   }
  
-  .social-btn {
+.social-btn {
     display: flex;
     width: 300px;
     align-items: center;
@@ -820,13 +820,24 @@ input::-moz-placeholder, textarea::-moz-placeholder {
     border-top-right-radius: 30px;
     margin-bottom: -6.9px;
     position: relative;
-    left: -227.8px;
+    left: -241.8px;
     transition: left 1s;
   }
-  .social-btn:hover {
-    left: -73.4px;
-    transition: left 1s;
+
+
+@media (min-width:300px) {
+    .responsive-header {
+        font-size: 4.5rem;
+    }
+}
+
+@media (min-width: 640px) {
+    .social-btn:hover {
+        left: -73.4px;
+        transition: left 1s;
+      }
   }
+  
 
 
   @media screen and (min-width: 1600px) {
@@ -834,16 +845,19 @@ input::-moz-placeholder, textarea::-moz-placeholder {
       display: none; /* Hide the social hub on screens wider than 1600px */
     }
   }
+  
 
 
   .placeholder\:tracking-widest::-moz-placeholder {
   letter-spacing: 0.1em;
 }
+  
 
 
   .placeholder\:tracking-widest::placeholder {
   letter-spacing: 0.1em;
 }
+  
 
 
   @media (min-width: 640px) {
@@ -939,6 +953,7 @@ input::-moz-placeholder, textarea::-moz-placeholder {
     line-height: 1.2;
   }
 }
+  
 
 
   @media (min-width: 768px) {
@@ -963,4 +978,3 @@ input::-moz-placeholder, textarea::-moz-placeholder {
   }
 }
 
-  
