@@ -798,15 +798,42 @@ input::-moz-placeholder, textarea::-moz-placeholder {
     background-color: #5a6268;
 }
 
-.placeholder\:tracking-widest::-moz-placeholder {
+
+/* Social Hub */
+.social {
+    position: fixed;
+    top: 50vh;
+    z-index: 50;
+  }
+ 
+  .social-btn {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-bottom: -6.9px;
+    position: relative;
+    left: -227.8px;
+    transition: left 1s;
+  }
+  .social-btn:hover {
+    left: -73.4px;
+    transition: left 1s;
+  }
+  .placeholder\:tracking-widest::-moz-placeholder {
   letter-spacing: 0.1em;
 }
-
-.placeholder\:tracking-widest::placeholder {
+  .placeholder\:tracking-widest::placeholder {
   letter-spacing: 0.1em;
 }
-
-@media (min-width: 640px) {
+  @media (min-width: 640px) {
   .sm\:absolute {
     position: absolute;
   }
@@ -899,8 +926,7 @@ input::-moz-placeholder, textarea::-moz-placeholder {
     line-height: 1.2;
   }
 }
-
-@media (min-width: 768px) {
+  @media (min-width: 768px) {
   .md\:ml-\[1rem\] {
     margin-left: 1rem;
   }

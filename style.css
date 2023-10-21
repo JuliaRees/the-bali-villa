@@ -112,3 +112,33 @@ input::-moz-placeholder, textarea::-moz-placeholder {
 .button:hover {
     background-color: #5a6268;
 }
+
+
+/* Social Hub */
+.social {
+    position: fixed;
+    top: 50vh;
+    z-index: 50;
+  }
+ 
+  .social-btn {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-bottom: -6.9px;
+    position: relative;
+    left: -227.8px;
+    transition: left 1s;
+  }
+  .social-btn:hover {
+    left: -73.4px;
+    transition: left 1s;
+  }
