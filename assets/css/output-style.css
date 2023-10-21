@@ -802,7 +802,7 @@ input::-moz-placeholder, textarea::-moz-placeholder {
 /* Social Hub */
 .social {
     position: fixed;
-    top: 50vh;
+    top: 70vh;
     z-index: 50;
   }
  
