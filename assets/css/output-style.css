@@ -831,7 +831,7 @@ input::-moz-placeholder, textarea::-moz-placeholder {
     }
 }
 
-@media (min-width: 640px) {
+@media (-moz-touch-enabled: 0), (pointer: fine) {
     .social-btn:hover {
         left: -73.4px;
         transition: left 1s;
