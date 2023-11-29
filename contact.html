@@ -38,7 +38,7 @@ seo:
                     <h3 class="text-3xl text-center font-sans uppercase"> Contact us for enquiries and bookings below. </h3>
                 </div>
                 
-                <form class="netlify">
+                <form name="contact" method="POST" data-netlify="true">
 
                     <input 
                         type="text" name="name" id="name" placeholder="Name" aria-label="Name"
@@ -52,6 +52,8 @@ seo:
                         <label for="message" class="tracking-widest block mb-[0.6rem] pl-[1%]"> Message </label>
                         <textarea rows="8" name="message" id="message" placeholder="I'd like to check in to the Bali Villa on..." class="py-1 w-full outline-none border  tracking-widest border-b pl-[1%]"></textarea>
                     </div>
+
+                    <input type="hidden" name="form-name" value="contact">
 
                     <div class="block ml-auto">
                         <button type="submit" class="button uppercase border mt-4"> Send </button>
