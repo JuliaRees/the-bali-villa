@@ -23,11 +23,13 @@
 <meta name="description" content="{{page.seo.description }}">
 <meta name="keywords" content="{{page.seo.keywords }}">
 
+<!--------
 {% if page.seo.hide-from-google == true %}
     <meta name="robots" content="noindex, nofollow">
 {% else %}
      <meta name="robots" content="index, follow">
 {% endif %}
+---->
 
 <!------------  Social media sharing META Tags ------------>
 <meta property="og:title" content="{{ page.title | default: site.data.site-settings.seo.title }}">
